@@ -1,4 +1,4 @@
-# Alquerque
+# Kulki
 
 Kulki is a project in command line environment written in C++.
 Previously I was using MSVC compiler for it.
@@ -15,7 +15,7 @@ Rules are included in program. Please read them before play.
 
 ## Prerequisites
 
-You need to compile this project by yourself in any C++ compiler.
+You need to compile this project by yourself in any C++ compiler.  
 gcc example:
 
 ```
@@ -60,11 +60,11 @@ Every rule about moving piece is explained in in-game rules.
 
 Yes sir/madame, there is a problem in-game when compiled in gcc.
 This problem shows up in first moves, especially when you move by exactly one field.
-But funny thing is that you will not encounter that problem at all, it's completly random.
+But there is possibility that you will not encounter that problem at all, it's completly random.
 
 If I find time for precise analysis, then I probably fix this problem.
 
-If you are such a good and helpful person you can contact me via Discord:
+If you are a good and helpful person, and you want to help me - contact me via Discord:
 ```
 Gregorit#7618
 ```
