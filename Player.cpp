@@ -85,7 +85,6 @@ void Player::move(Board<char> &board)
 		cin >> toJ;
 		cin.clear();
 		cin.ignore(numeric_limits<streamsize>::max(), '\n'); //deleting from stream cin all incorrect characters
-						   //in VS '13: cin.ignore(numeric_limits<streamsize>::max(), '\n');
 		if (toI < 'A' || toI > 'A' + BOARD_ARRAY || toJ < 0 || toJ > BOARD_ARRAY || board.arr[toJ][toI - 'A'] != ' ')
 		{
 			toI = 'z';
