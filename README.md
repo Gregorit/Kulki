@@ -2,7 +2,7 @@
 
 Kulki is a project in command line environment written in C++.
 Previously I was using MSVC compiler for it.
-I reworked the code, so now it (almost) works also on gcc.
+I reworked the code, so now it (almost) works also on g++.
 
 Kulki is a Polish variant of other game called Lines (Шарики).
 The game make save file which saves after every move. You can load it in the menu.
@@ -16,11 +16,12 @@ Rules are included in program. Please read them before play.
 ## Prerequisites
 
 You need to compile this project by yourself in any C++ compiler.  
-gcc example:
+  
+Use this one liner to compile .cpp and .h files and simultaneously execute the game.
+Of course if we talk about using g++:
 
 ```
-$ gcc Main.cpp [rest of .cpp and .h files] -o output
-$ ./output
+$ g++ *.cpp *.h -o output && ./output
 ```
 
 ## How to use
@@ -44,21 +45,23 @@ C2
 
 Every rule about moving piece is explained in in-game rules.
 
+## Screenshots
+
 ## Tools used to create this project
 
-### Before gcc compatibility
+### Before g++ compatibility
 * [Windows 7 Ultimate](https://www.microsoft.com/en-us/windows/) - System used to make this project
 * [Visual Studio Professional 2013](https://msdn.microsoft.com/en-us/library/dd831853(v=vs.120)) - C++ IDE and compiler
 
-### After gcc compatibility
+### After g++ compatibility
 * [Antergos 17.10](https://antergos.com) - System used to make this project
 * [Code::Blocks](http://www.codeblocks.org) - C++ IDE
-* [gcc](https://gcc.gnu.org) - C++ compiler
+* [g++](https://gcc.gnu.org) - C++ compiler
 
 
-## Problem with proper working if compiled in gcc
+## Problem with proper working if compiled in g++
 
-Yes sir/madame, there is a problem in-game when compiled in gcc.
+Yes sir/madame, there is a problem in-game when compiled in g++.
 This problem shows up in first moves, especially when you move by exactly one field.
 But there is possibility that you will not encounter that problem at all, it's completly random.
 
