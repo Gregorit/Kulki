@@ -47,6 +47,9 @@ Every rule about moving piece is explained in in-game rules.
 
 ## Screenshots
 
+![alt text](https://imghost.io/images/2017/12/03/Screenshot_2.png)
+![alt text](https://imghost.io/images/2017/12/03/Screenshot_4.png)
+
 ## Tools used to create this project
 
 ### Before g++ compatibility
